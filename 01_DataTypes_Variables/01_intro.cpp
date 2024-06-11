@@ -4,6 +4,6 @@ int main()
 {
    char c= '1';
    cout<< c<< endl;
-   cout<<"Hello";
+   
 
 } 
