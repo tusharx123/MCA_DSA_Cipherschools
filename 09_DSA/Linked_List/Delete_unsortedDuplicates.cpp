@@ -64,11 +64,11 @@ void display(node*&head){
         return;
     }
     node*ptr = head;
-    while(ptr->next!=head){
+    do{
         cout<<ptr->data<<" ";
         ptr = ptr->next;
-        if(ptr == head) break;
     }
+    while(ptr!=head);
     cout<<endl;
 }
 
